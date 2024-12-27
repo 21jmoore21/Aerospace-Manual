@@ -237,8 +237,8 @@ function structural_components() {
 
 function payload_components() {
     var content = "<div class='overlay-content'>" +
-    "<a onclick='closeNav()' href='#'>Crew Modules</a>" +
     "<a onclick='closeNav()' href='#'>Cargo Resupply</a>" +
+    "<a onclick='closeNav()' href='#'>Crew Modules</a>" +
     "<a onclick='closeNav()' href='#'>Satellites</a>";
 
     var last_clicked_content = 'Payload Components';
@@ -299,6 +299,7 @@ function engineering_roles() {
     "<a onclick='closeNav()' href='#'>Design Engineering</a>" +
     "<a onclick='closeNav()' href='#'>Dynamics Engineering</a>" +
     "<a onclick='closeNav()' href='#'>Electrical Engineering</a>" +
+    "<a onclick='closeNav()' href='#'>Fluid Dynamicist</a>" +
     "<a onclick='closeNav()' href='#'>GNC Engineering</a>" +
     "<a onclick='closeNav()' href='#'>Manufacturing Engineering</a>" +
     "<a onclick='closeNav()' href='#'>Materials Science & Engineering</a>" +
