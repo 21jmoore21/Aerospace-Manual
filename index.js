@@ -83,7 +83,7 @@ function aerospace_history() {
     var content = "<div class='overlay-content'>" +
     "<a onclick='setUnderline_2(this); united_states_history()'>United States<i class='arrow_right'></i></a>" +
     "<a onclick='setUnderline_2(this); russia_history()'>Russia<i class='arrow_right'></i></a>" +
-    "<a onclick='clearNav()' href='#'>Other</a>";
+    "<a onclick='closeNav()' href='#'>Other</a>";
 
     var last_clicked_content = 'Aerospace History';
     const specialElement = document.getElementById('Aerospace History');
@@ -105,10 +105,10 @@ function aerospace_history() {
 
 function united_states_history() {
     var content = "<div class='overlay-content'>" +
-    "<a onclick='clearNav()' href='#'>Rocket History</a>" +
-    "<a onclick='clearNav()' href='#'>Engine History</a>" +
-    "<a onclick='clearNav()' href='#'>Astronaut History</a>" +
-    "<a onclick='clearNav()' href='#'>Milestones</a>";
+    "<a onclick='closeNav()' href='#'>Rocket History</a>" +
+    "<a onclick='closeNav()' href='#'>Engine History</a>" +
+    "<a onclick='closeNav()' href='#'>Astronaut History</a>" +
+    "<a onclick='closeNav()' href='#'>Milestones</a>";
 
     var last_clicked_content = 'United States History';
 
@@ -126,10 +126,10 @@ function united_states_history() {
 
 function russia_history() {
     var content = "<div class='overlay-content'>" +
-    "<a onclick='clearNav()' href='#'>Rocket History</a>" +
-    "<a onclick='clearNav()' href='#'>Engine History</a>" +
-    "<a onclick='clearNav()' href='#'>Astronaut History</a>" +
-    "<a onclick='clearNav()' href='#'>Milestones</a>";
+    "<a onclick='closeNav()' href='#'>Rocket History</a>" +
+    "<a onclick='closeNav()' href='#'>Engine History</a>" +
+    "<a onclick='closeNav()' href='#'>Astronaut History</a>" +
+    "<a onclick='closeNav()' href='#'>Milestones</a>";
 
     var last_clicked_content = 'Russian History';
 
@@ -147,12 +147,12 @@ function russia_history() {
 
 function theory() {
     var content = "<div class='overlay-content'>" +
-    "<a onclick='clearNav()' href='#'>Basic Physics</a>" +
-    "<a onclick='clearNav()' href='#'>Orbital Mechanics</a>" +
-    "<a onclick='clearNav()' href='#'>Aerodynamics</a>" +
-    "<a onclick='clearNav()' href='#'>Thermodynamics</a>" +
-    "<a onclick='clearNav()' href='#'>Propulsion</a>" +
-    "<a onclick='clearNav()' href='#'>Material Science</a>";
+    "<a onclick='closeNav()' href='#'>Basic Physics</a>" +
+    "<a onclick='closeNav()' href='#'>Orbital Mechanics</a>" +
+    "<a onclick='closeNav()' href='#'>Aerodynamics</a>" +
+    "<a onclick='closeNav()' href='#'>Thermodynamics</a>" +
+    "<a onclick='closeNav()' href='#'>Propulsion</a>" +
+    "<a onclick='closeNav()' href='#'>Material Science</a>";
 
     var last_clicked_content = 'Theory';
     
@@ -198,8 +198,8 @@ function rocket_components() {
 
 function propulsion_components() {
     var content = "<div class='overlay-content'>" +
-    "<a onclick='clearNav()' href='#'>Rocket Engines</a>" +
-    "<a onclick='clearNav()' href='#'>Propellant Tanks</a>";
+    "<a onclick='closeNav()' href='#'>Rocket Engines</a>" +
+    "<a onclick='closeNav()' href='#'>Propellant Tanks</a>";
 
     var last_clicked_content = 'Propulsion Components';
 
@@ -217,8 +217,8 @@ function propulsion_components() {
 
 function structural_components() {
     var content = "<div class='overlay-content'>" +
-    "<a onclick='clearNav()' href='#'>Airframe</a>" +
-    "<a onclick='clearNav()' href='#'>Interstages</a>";
+    "<a onclick='closeNav()' href='#'>Airframe</a>" +
+    "<a onclick='closeNav()' href='#'>Interstages</a>";
 
     var last_clicked_content = 'Structural Components';
 
@@ -236,9 +236,9 @@ function structural_components() {
 
 function payload_components() {
     var content = "<div class='overlay-content'>" +
-    "<a onclick='clearNav()' href='#'>Crew Modules</a>" +
-    "<a onclick='clearNav()' href='#'>Cargo Resupply</a>" +
-    "<a onclick='clearNav()' href='#'>Satellites</a>";
+    "<a onclick='closeNav()' href='#'>Crew Modules</a>" +
+    "<a onclick='closeNav()' href='#'>Cargo Resupply</a>" +
+    "<a onclick='closeNav()' href='#'>Satellites</a>";
 
     var last_clicked_content = 'Payload Components';
 
@@ -256,8 +256,8 @@ function payload_components() {
 
 function gnc_components() {
     var content = "<div class='overlay-content'>" +
-    "<a onclick='clearNav()' href='#'>Avionics</a>" +
-    "<a onclick='clearNav()' href='#'>Stabilizers</a>";
+    "<a onclick='closeNav()' href='#'>Avionics</a>" +
+    "<a onclick='closeNav()' href='#'>Stabilizers</a>";
 
     var last_clicked_content = 'GNC Components';
 
@@ -275,8 +275,8 @@ function gnc_components() {
 
 function ets_components() {
     var content = "<div class='overlay-content'>" +
-    "<a onclick='clearNav()' href='#'>Thermal Protection System</a>" +
-    "<a onclick='clearNav()' href='#'>Insulation</a>";
+    "<a onclick='closeNav()' href='#'>Thermal Protection System</a>" +
+    "<a onclick='closeNav()' href='#'>Insulation</a>";
 
     var last_clicked_content = 'ETS Components';
 
@@ -294,22 +294,22 @@ function ets_components() {
 
 function engineering_roles() {
     var content = "<div class='overlay-content'>" +
-    "<a onclick='clearNav()' href='#'>Overview</a>" +
-    "<a onclick='clearNav()' href='#'>Design Engineering</a>" +
-    "<a onclick='clearNav()' href='#'>Dynamics Engineering</a>" +
-    "<a onclick='clearNav()' href='#'>Electrical Engineering</a>" +
-    "<a onclick='clearNav()' href='#'>GNC Engineering</a>" +
-    "<a onclick='clearNav()' href='#'>Manufacturing Engineering</a>" +
-    "<a onclick='clearNav()' href='#'>Materials Science & Engineering</a>" +
-    "<a onclick='clearNav()' href='#'>Payload Engineering</a>" +
-    "<a onclick='clearNav()' href='#'>Program Manager</a>" +
-    "<a onclick='clearNav()' href='#'>Propulsion Engineering</a>" +
-    "<a onclick='clearNav()' href='#'>Quality Control</a>" +
-    "<a onclick='clearNav()' href='#'>Software Engineering</a>" +
-    "<a onclick='clearNav()' href='#'>Structural Analysis</a>" +
-    "<a onclick='clearNav()' href='#'>Systems Engineer</a>" +
-    "<a onclick='clearNav()' href='#'>Test Engineering</a>" +
-    "<a onclick='clearNav()' href='#'>Thermal Analysis</a>";
+    "<a onclick='closeNav()' href='#'>Overview</a>" +
+    "<a onclick='closeNav()' href='#'>Design Engineering</a>" +
+    "<a onclick='closeNav()' href='#'>Dynamics Engineering</a>" +
+    "<a onclick='closeNav()' href='#'>Electrical Engineering</a>" +
+    "<a onclick='closeNav()' href='#'>GNC Engineering</a>" +
+    "<a onclick='closeNav()' href='#'>Manufacturing Engineering</a>" +
+    "<a onclick='closeNav()' href='#'>Materials Science & Engineering</a>" +
+    "<a onclick='closeNav()' href='#'>Payload Engineering</a>" +
+    "<a onclick='closeNav()' href='#'>Program Manager</a>" +
+    "<a onclick='closeNav()' href='#'>Propulsion Engineering</a>" +
+    "<a onclick='closeNav()' href='#'>Quality Control</a>" +
+    "<a onclick='closeNav()' href='#'>Software Engineering</a>" +
+    "<a onclick='closeNav()' href='#'>Structural Analysis</a>" +
+    "<a onclick='closeNav()' href='#'>Systems Engineer</a>" +
+    "<a onclick='closeNav()' href='#'>Test Engineering</a>" +
+    "<a onclick='closeNav()' href='#'>Thermal Analysis</a>";
 
     var last_clicked_content = 'Engineering Roles';
 
