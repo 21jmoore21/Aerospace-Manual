@@ -152,7 +152,6 @@ function theory() {
     "<a onclick='closeNav()' href='#'>Mechanics of Materials</a>" +
     "<a onclick='closeNav()' href='#'>Thermodynamics</a>" +
     "<a onclick='closeNav()' href='#'>Aerodynamics</a>" +
-    "<a onclick='closeNav()' href='#'>Material Science</a>" +
     "<a onclick='closeNav()' href='#'>Orbital Mechanics</a>" +
     "<a onclick='closeNav()' href='#'>Propulsion</a>";
 
