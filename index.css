@@ -102,6 +102,10 @@ h4 {
   padding-right: 55px;
 }
 
+div.navbar button {
+  opacity: 1;
+}
+
 .nav_bar_button {
   display: inline-block;
   width: 50px;
@@ -141,6 +145,105 @@ h4 {
   font-size: 2rem;
   padding: 0px;
   cursor: pointer;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #303636;
+  opacity: 1;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  padding-top: 3%;
+  position: relative;
+  width: 100%;
+  text-align: left;
+  margin-top: 100px;
+}
+
+.overlay a {
+  padding: 8px;
+  padding-right: 30px;
+  font-family: 'Space Grotesk', sans-serif;
+  text-decoration: none;
+  font-size: 36px;
+  color: #FFFFFF;
+  display: block;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.overlay-content a {
+  transition: opacity 0.3s ease;  /* Smooth transition */
+}
+
+.overlay-content a:hover {
+  text-decoration: underline;
+}
+
+/* Permanent underline for clicked item */
+.overlay-content a.underlined {
+  text-decoration: underline !important;
+}
+
+.overlay-content a.faded {
+  opacity: 0.5;  /* Fade out effect */
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 12px;
+  left: 53px;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.arrow_right {
+  border: solid;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-left: 8px;
+  margin-bottom: 5px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.overlay-container {
+  padding-left: 55px;
+  padding-right: 55px;
+  display: flex;
+}
+
+.overlay-column {
+  display: block;
+  flex: 1; /* Distributes equal space to each column */
+  padding: 10px;
+  max-height: 100vh; /* Set the maximum height */
+  overflow-y: auto;  /* Enable vertical scrolling when content overflows */
+}
+
+.overlay-column-2 {
+  display: hidden;
+  flex: 1; /* Distributes equal space to each column */
+  padding: 10px;
+  max-height: 100vh; /* Set the maximum height */
+  overflow-y: auto;  /* Enable vertical scrolling when content overflows */
+}
+
+.overlay-column-3 {
+  display: hidden;
+  flex: 1; /* Distributes equal space to each column */
+  padding: 10px;
+  max-height: 100vh; /* Set the maximum height */
+  overflow-y: auto;  /* Enable vertical scrolling when content overflows */
 }
 
 /* Content Layout */
