@@ -148,11 +148,13 @@ function russia_history() {
 function theory() {
     var content = "<div class='overlay-content'>" +
     "<a onclick='closeNav()' href='#'>Basic Physics</a>" +
-    "<a onclick='closeNav()' href='#'>Orbital Mechanics</a>" +
-    "<a onclick='closeNav()' href='#'>Aerodynamics</a>" +
+    "<a onclick='closeNav()' href='#'>Statics & Dynamics</a>" +
+    "<a onclick='closeNav()' href='#'>Mechanics of Materials</a>" +
     "<a onclick='closeNav()' href='#'>Thermodynamics</a>" +
-    "<a onclick='closeNav()' href='#'>Propulsion</a>" +
-    "<a onclick='closeNav()' href='#'>Material Science</a>";
+    "<a onclick='closeNav()' href='#'>Aerodynamics</a>" +
+    "<a onclick='closeNav()' href='#'>Material Science</a>" +
+    "<a onclick='closeNav()' href='#'>Orbital Mechanics</a>" +
+    "<a onclick='closeNav()' href='#'>Propulsion</a>";
 
     var last_clicked_content = 'Theory';
     
@@ -294,7 +296,7 @@ function ets_components() {
 
 function engineering_roles() {
     var content = "<div class='overlay-content'>" +
-    "<a onclick='closeNav()' href='#'>Overview</a>" +
+    "<a onclick='closeNav()' href='#'>View All</a>" +
     "<a onclick='closeNav()' href='#'>Design Engineering</a>" +
     "<a onclick='closeNav()' href='#'>Dynamics Engineering</a>" +
     "<a onclick='closeNav()' href='#'>Electrical Engineering</a>" +
