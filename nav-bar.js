@@ -199,7 +199,7 @@ function rocket_components() {
 
 function propulsion_components() {
     var content = "<div class='overlay-content'>" +
-    "<a onclick='closeNav()' href='./rocket_components/rocket-engines.html'>Rocket Engines</a>" +
+    "<a onclick='closeNav()' href='./rocket-components/rocket-engines.html'>Rocket Engines</a>" +
     "<a onclick='closeNav()' href='#'>Propellant Tanks</a>";
 
     var last_clicked_content = 'Propulsion Components';
