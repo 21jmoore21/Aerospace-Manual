@@ -1,0 +1,111 @@
+/* Basic Info */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px; /* Default root font size */
+}
+
+body {
+  background-color: #D4967D;
+  margin: 0px;
+}
+
+h1 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.2em;
+  letter-spacing: -0.05em;
+  text-transform: none;
+  font-size: 4.6rem;
+  margin: 0px;
+}
+
+h2 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.2em;
+  letter-spacing: -0.05em;
+  text-transform: none;
+  font-size: 3.1rem;
+  margin: 0px;
+}
+
+h3 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.2em;
+  letter-spacing: -0.05em;
+  text-transform: none;
+  font-size: 2.6rem;
+  margin: 0px;
+}
+
+h4 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.2em;
+  letter-spacing: -0.05em;
+  text-transform: none;
+  font-size: 2rem;
+  margin: 0px;
+}
+
+h5 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.2em;
+  letter-spacing: -0.05em;
+  text-transform: none;
+  font-size: 1.6rem;
+  margin: 0px;
+}
+
+h6 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.2em;
+  letter-spacing: -0.05em;
+  text-transform: none;
+  font-size: 1.2rem;
+  margin: 0px;
+}
+
+.p1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.5em;
+  letter-spacing: 0.01em;
+  text-transform: none;
+  font-size: 1.4rem;
+}
+
+.p2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.5em;
+  letter-spacing: 0.01em;
+  text-transform: none;
+  font-size: 1.2rem;
+}
+
+.p3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.5em;
+  letter-spacing: 0.01em;
+  text-transform: none;
+  font-size: 1rem;
+}
