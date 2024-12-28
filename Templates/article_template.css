@@ -101,6 +101,35 @@ body {
   height: auto; /* Maintains aspect ratio */
 }
 
+/* Author Section */
+hr.faint-line {
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.2); /* Faint line with transparency */
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.flex_author {
+  display: flex; 
+  justify-content: space-between; /* Positions name on the left, image on the right */
+  gap: 20px; /* Adds space between the text and image */
+  margin-bottom: 10px;
+}
+
+.logo_image {
+  width: 35px; /* Adjust the size of the image */
+  height: 35px; /* Adjust the size of the image */
+  object-fit: cover; /* Ensures the image doesn't stretch */
+  margin-right: 5px;
+}
+
+.author_image {
+  width: 100px; /* Adjust the size of the image */
+  height: 100px; /* Adjust the size of the image */
+  border-radius: 50%; /* Makes the image circular */
+  object-fit: cover; /* Ensures the image doesn't stretch */
+}
+
 /* Footer */
 footer {
   text-align: center;
