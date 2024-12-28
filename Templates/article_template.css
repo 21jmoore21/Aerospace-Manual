@@ -1,0 +1,116 @@
+/* Basic Info */
+body {
+  background-color: #E5E3DC;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #E5E3DC; /* Button background */
+}
+
+.nav_bar_button {
+  background-color: #E5E3DC; /* Button background */
+}
+
+.nav_bar_button div {
+  background-color: #495A58; /* Line color */
+}
+
+.company_name {
+  background-color: #E5E3DC;
+  color: #495A58;
+}
+
+/* Content Layout */
+.content {
+  align-items: left;
+  padding-left: 55px;
+  padding-right: 55px;
+  padding-top: 125px;
+  padding-bottom: 0px;
+  color: #495A58;
+}
+
+.content h1 {
+  color: #495A58;
+  padding-bottom: 0px;
+  text-align: center;
+}
+
+.content h3 {
+  color: #495A58;
+  padding-bottom: 20px;
+}
+
+.content h4 {
+  color: #D4967D;
+  padding-bottom: 15px;
+}
+
+.content h5 {
+  color: #D4967D;
+  padding-bottom: 0px;
+  text-align: center;
+}
+
+.content h6 {
+  color: #D4967D;
+  padding-top: 5px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.content p {
+  color: #495A58;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.first_section_break {
+  min-height: 50px;
+}
+
+.section_break {
+  min-height: 30px;
+}
+
+.example_image_1 {
+  max-width: 40%;
+  margin: 0px auto; /* Top/bottom margin, auto centers horizontally */
+  float: center;
+  display: block;
+}
+
+.flex_image_2 {
+  display: flex;
+  align-items: flex-start; /* Ensures the image and text align at the top */
+  gap: 20px; /* Adds space between the text and image */
+}
+
+.text_image_2 {
+  flex: 1; /* Ensures text content takes up available space */
+}
+
+.image_2_group {
+  max-width: 20%; /* Adjust image container width */
+  text-align: center; /* Centers the caption below the image */
+}
+
+.example_image_2 {
+  width: 100%; /* Ensures the image scales with its container */
+  height: auto; /* Maintains aspect ratio */
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 50px;
+  padding: 50px;
+  background-color: #495A58;
+  color: #E5E3DC;
+}
+
+footer p {
+  color: #E5E3DC;
+  text-decoration: none;
+}
