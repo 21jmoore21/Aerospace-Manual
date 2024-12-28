@@ -70,6 +70,13 @@ body {
   min-height: 50px;
 }
 
+.video-container {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  padding-bottom: 20px;
+}
+
 .section_break {
   min-height: 30px;
 }
