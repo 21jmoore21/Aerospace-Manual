@@ -31,6 +31,10 @@ body {
   color: #495A58;
 }
 
+.content a{
+  color: #D4967D;
+}
+
 .content h1 {
   color: #495A58;
   padding-bottom: 0px;
