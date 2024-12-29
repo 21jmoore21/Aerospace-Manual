@@ -83,7 +83,7 @@ function aerospace_history() {
     var content = "<div class='overlay-content'>" +
     "<a onclick='setUnderline_2(this); united_states_history()'>United States<i class='arrow_right'></i></a>" +
     "<a onclick='setUnderline_2(this); russia_history()'>Russia<i class='arrow_right'></i></a>" +
-    "<a onclick='closeNav()' href='#'>Other</a>";
+    "<a onclick='closeNav()' href='https://www.aerospacemanual.com/aerospace_history/other/home.html'>Other</a>";
 
     var last_clicked_content = 'Aerospace History';
     const specialElement = document.getElementById('Aerospace History');
@@ -105,10 +105,10 @@ function aerospace_history() {
 
 function united_states_history() {
     var content = "<div class='overlay-content'>" +
-    "<a onclick='closeNav()' href='#'>Rocket History</a>" +
-    "<a onclick='closeNav()' href='#'>Engine History</a>" +
-    "<a onclick='closeNav()' href='#'>Astronaut History</a>" +
-    "<a onclick='closeNav()' href='#'>Milestones</a>";
+    "<a onclick='closeNav()' href='https://www.aerospacemanual.com/aerospace_history/united_states/rocket_history.html'>Rocket History</a>" +
+    "<a onclick='closeNav()' href='https://www.aerospacemanual.com/aerospace_history/united_states/engine_history.html'>Engine History</a>" +
+    "<a onclick='closeNav()' href='https://www.aerospacemanual.com/aerospace_history/united_states/astronaut_history.html'>Astronaut History</a>" +
+    "<a onclick='closeNav()' href='https://www.aerospacemanual.com/aerospace_history/united_states/milestones.html'>Milestones</a>";
 
     var last_clicked_content = 'United States History';
 
@@ -126,10 +126,10 @@ function united_states_history() {
 
 function russia_history() {
     var content = "<div class='overlay-content'>" +
-    "<a onclick='closeNav()' href='#'>Rocket History</a>" +
-    "<a onclick='closeNav()' href='#'>Engine History</a>" +
-    "<a onclick='closeNav()' href='#'>Astronaut History</a>" +
-    "<a onclick='closeNav()' href='#'>Milestones</a>";
+    "<a onclick='closeNav()' href='https://www.aerospacemanual.com/aerospace_history/russia/rocket_history.html'>Rocket History</a>" +
+    "<a onclick='closeNav()' href='https://www.aerospacemanual.com/aerospace_history/russia/engine_history.html'>Engine History</a>" +
+    "<a onclick='closeNav()' href='https://www.aerospacemanual.com/aerospace_history/russia/astronaut_history.html'>Astronaut History</a>" +
+    "<a onclick='closeNav()' href='https://www.aerospacemanual.com/aerospace_history/russia/milestones.html'>Milestones</a>";
 
     var last_clicked_content = 'Russian History';
 
@@ -147,13 +147,13 @@ function russia_history() {
 
 function theory() {
     var content = "<div class='overlay-content'>" +
-    "<a onclick='closeNav()' href='#'>Basic Physics</a>" +
-    "<a onclick='closeNav()' href='#'>Statics & Dynamics</a>" +
-    "<a onclick='closeNav()' href='#'>Mechanics of Materials</a>" +
-    "<a onclick='closeNav()' href='#'>Thermodynamics</a>" +
-    "<a onclick='closeNav()' href='#'>Aerodynamics</a>" +
-    "<a onclick='closeNav()' href='#'>Orbital Mechanics</a>" +
-    "<a onclick='closeNav()' href='#'>Propulsion</a>";
+    "<a onclick='closeNav()' href='https://www.aerospacemanual.com/theory/basic_physics/home.html'>Basic Physics</a>" +
+    "<a onclick='closeNav()' href='https://www.aerospacemanual.com/theory/statics_dynamics/home.html'>Statics & Dynamics</a>" +
+    "<a onclick='closeNav()' href='https://www.aerospacemanual.com/theory/mechanics/home.html'>Mechanics of Materials</a>" +
+    "<a onclick='closeNav()' href='https://www.aerospacemanual.com/theory/thermo/home.html'>Thermodynamics</a>" +
+    "<a onclick='closeNav()' href='https://www.aerospacemanual.com/theory/aero/home.html'>Aerodynamics</a>" +
+    "<a onclick='closeNav()' href='https://www.aerospacemanual.com/theory/orbital/home.html'>Orbital Mechanics</a>" +
+    "<a onclick='closeNav()' href='https://www.aerospacemanual.com/theory/propulsion/home.html'>Propulsion</a>";
 
     var last_clicked_content = 'Theory';
     
@@ -199,8 +199,8 @@ function rocket_components() {
 
 function propulsion_components() {
     var content = "<div class='overlay-content'>" +
-    "<a onclick='closeNav()' href='https://www.aerospacemanual.com/rocket-components/rocket-engines.html'>Rocket Engines</a>" +
-    "<a onclick='closeNav()' href='#'>Propellant Tanks</a>";
+    "<a onclick='closeNav()' href='https://www.aerospacemanual.com/rocket_components/propulsion/rocket_engines.html'>Rocket Engines</a>" +
+    "<a onclick='closeNav()' href='https://www.aerospacemanual.com/rocket_components/propulsion/prop_tanks.html'>Propellant Tanks</a>";
 
     var last_clicked_content = 'Propulsion Components';
 
@@ -218,8 +218,8 @@ function propulsion_components() {
 
 function structural_components() {
     var content = "<div class='overlay-content'>" +
-    "<a onclick='closeNav()' href='#'>Airframe</a>" +
-    "<a onclick='closeNav()' href='#'>Interstages</a>";
+    "<a onclick='closeNav()' href='https://www.aerospacemanual.com/rocket_components/structural/airframe.html'>Airframe</a>" +
+    "<a onclick='closeNav()' href='https://www.aerospacemanual.com/rocket_components/structural/interstages.html'>Interstages</a>";
 
     var last_clicked_content = 'Structural Components';
 
@@ -237,9 +237,9 @@ function structural_components() {
 
 function payload_components() {
     var content = "<div class='overlay-content'>" +
-    "<a onclick='closeNav()' href='#'>Cargo Resupply</a>" +
-    "<a onclick='closeNav()' href='#'>Crew Modules</a>" +
-    "<a onclick='closeNav()' href='#'>Satellites</a>";
+    "<a onclick='closeNav()' href='https://www.aerospacemanual.com/rocket_components/payload/cargo_resupply.html'>Cargo Resupply</a>" +
+    "<a onclick='closeNav()' href='https://www.aerospacemanual.com/rocket_components/payload/crew_modules.html'>Crew Modules</a>" +
+    "<a onclick='closeNav()' href='https://www.aerospacemanual.com/rocket_components/payload/satellites.html'>Satellites</a>";
 
     var last_clicked_content = 'Payload Components';
 
@@ -257,8 +257,8 @@ function payload_components() {
 
 function gnc_components() {
     var content = "<div class='overlay-content'>" +
-    "<a onclick='closeNav()' href='#'>Avionics</a>" +
-    "<a onclick='closeNav()' href='#'>Stabilizers</a>";
+    "<a onclick='closeNav()' href='https://www.aerospacemanual.com/rocket_components/gnc/avionics.html'>Avionics</a>" +
+    "<a onclick='closeNav()' href='https://www.aerospacemanual.com/rocket_components/propulsion/stabilizers.html'>Stabilizers</a>";
 
     var last_clicked_content = 'GNC Components';
 
@@ -276,8 +276,8 @@ function gnc_components() {
 
 function ets_components() {
     var content = "<div class='overlay-content'>" +
-    "<a onclick='closeNav()' href='#'>Thermal Protection System</a>" +
-    "<a onclick='closeNav()' href='#'>Insulation</a>";
+    "<a onclick='closeNav()' href='https://www.aerospacemanual.com/rocket_components/ets/tps.html'>Thermal Protection System</a>" +
+    "<a onclick='closeNav()' href='https://www.aerospacemanual.com/rocket_components/ets/insulation.html'>Insulation</a>";
 
     var last_clicked_content = 'ETS Components';
 
@@ -295,23 +295,23 @@ function ets_components() {
 
 function engineering_roles() {
     var content = "<div class='overlay-content'>" +
-    "<a onclick='closeNav()' href='#'>View All</a>" +
-    "<a onclick='closeNav()' href='#'>Design Engineering</a>" +
-    "<a onclick='closeNav()' href='#'>Dynamics Engineering</a>" +
-    "<a onclick='closeNav()' href='#'>Electrical Engineering</a>" +
-    "<a onclick='closeNav()' href='#'>Fluid Dynamicist</a>" +
-    "<a onclick='closeNav()' href='#'>GNC Engineering</a>" +
-    "<a onclick='closeNav()' href='#'>Manufacturing Engineering</a>" +
-    "<a onclick='closeNav()' href='#'>Materials Science & Engineering</a>" +
-    "<a onclick='closeNav()' href='#'>Payload Engineering</a>" +
-    "<a onclick='closeNav()' href='#'>Program Manager</a>" +
-    "<a onclick='closeNav()' href='#'>Propulsion Engineering</a>" +
-    "<a onclick='closeNav()' href='#'>Quality Control</a>" +
-    "<a onclick='closeNav()' href='#'>Software Engineering</a>" +
-    "<a onclick='closeNav()' href='#'>Structural Analysis</a>" +
-    "<a onclick='closeNav()' href='#'>Systems Engineer</a>" +
-    "<a onclick='closeNav()' href='#'>Test Engineering</a>" +
-    "<a onclick='closeNav()' href='#'>Thermal Analysis</a>";
+    "<a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/home.html'>View All</a>" +
+    "<a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/design/home.html'>Design Engineering</a>" +
+    "<a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/dynamics/home.html'>Dynamics Engineering</a>" +
+    "<a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/electrical/home.html'>Electrical Engineering</a>" +
+    "<a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/fluid_dynamics/home.html'>Fluid Dynamicist</a>" +
+    "<a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/gnc/home.html'>GNC Engineering</a>" +
+    "<a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/manufacturing/home.html'>Manufacturing Engineering</a>" +
+    "<a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/mse/home.html'>Materials Science & Engineering</a>" +
+    "<a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/payload/home.html'>Payload Engineering</a>" +
+    "<a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/program_manager/home.html'>Program Manager</a>" +
+    "<a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/propulsion/home.html'>Propulsion Engineering</a>" +
+    "<a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/quality/home.html'>Quality Control</a>" +
+    "<a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/software/home.html'>Software Engineering</a>" +
+    "<a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/structural_analysis/home.html'>Structural Analysis</a>" +
+    "<a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/systems/home.html'>Systems Engineer</a>" +
+    "<a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/test/home.html'>Test Engineering</a>" +
+    "<a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/thermal_analysis/home.html'>Thermal Analysis</a>";
 
     var last_clicked_content = 'Engineering Roles';
 
