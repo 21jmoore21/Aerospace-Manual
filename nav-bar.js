@@ -1,3 +1,17 @@
+function set_base_nav_menu() {
+    var content = "<div class='overlay-content'>" +
+    "<a onclick='setUnderline(this); aerospace_history()' id='Aerospace History'>Aerospace History<i class='arrow_right'></i></a>" +
+    "<a onclick='setUnderline(this); theory()'>Theory<i class='arrow_right'></i></a>" +
+    "<a onclick='setUnderline(this); rocket_components()'>Rocket Components<i class='arrow_right'></i></a>" +
+    "<a onclick='setUnderline(this); engineering_roles()'>Aerospace Engineering Roles<i class='arrow_right'></i></a>" +
+    "<a href='https://www.aerospacemanual.com/company_map/home.html' onclick='setUnderline(this); closeNav()'>Company Map</a>" +
+    "<a href='https://www.aerospacemanual.com/unit_conversion/home.html' onclick='setUnderline(this); closeNav()'>Unit Conversions</a>";
+
+    document.getElementById("overlay-column").innerHTML = content;
+
+    clearNav();
+}
+
 function openNav() {
     document.getElementById("myNav").style.width = "100%";
     clearNav();

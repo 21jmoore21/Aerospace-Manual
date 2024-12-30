@@ -18,20 +18,12 @@
   <link rel="icon" type="image/x-icon" href="../Secondary_Logo.png">
 </head>
   <title>Unit Conversions - The Aerospace Manual</title>
-  <body>
+  <body onload="set_base_nav_menu()">
 
     <div id="myNav" class="overlay">
       <a class="closebtn" onclick="closeNav()">&times;</a>
       <div class="overlay-container">
-        <div class="overlay-column">
-          <div class="overlay-content">
-            <a onclick="setUnderline(this); aerospace_history()" id="Aerospace History">Aerospace History<i class="arrow_right"></i></a>
-            <a onclick="setUnderline(this); theory()">Theory<i class="arrow_right"></i></a>
-            <a onclick="setUnderline(this); rocket_components()">Rocket Components<i class="arrow_right"></i></a>
-            <a onclick="setUnderline(this); engineering_roles()">Aerospace Engineering Roles<i class="arrow_right"></i></a>
-            <a href="https://www.aerospacemanual.com/company_map/home.html" onclick="setUnderline(this); closeNav()">Company Map</a>
-            <a href="https://www.aerospacemanual.com/unit_conversion/home.html" onclick="setUnderline(this); closeNav()">Unit Conversions</a>
-          </div>
+        <div id="overlay-column" class="overlay-column">
         </div>
         <div id="overlay-column-2" class="overlay-column-2">
         </div>
