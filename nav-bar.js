@@ -314,17 +314,17 @@ function engineering_roles() {
     "<a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/design/home.html'>Design Engineering</a>" +
     "<a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/dynamics/home.html'>Dynamics Engineering</a>" +
     "<a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/electrical/home.html'>Electrical Engineering</a>" +
-    "<a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/fluid_dynamics/home.html'>Fluid Dynamicist</a>" +
+    "<a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/fluid_dynamics/home.html'>Fluid Dynamics</a>" +
     "<a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/gnc/home.html'>GNC Engineering</a>" +
     "<a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/manufacturing/home.html'>Manufacturing Engineering</a>" +
     "<a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/mse/home.html'>Materials Science & Engineering</a>" +
     "<a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/payload/home.html'>Payload Engineering</a>" +
-    "<a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/program_manager/home.html'>Program Manager</a>" +
+    "<a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/program_manager/home.html'>Program Management</a>" +
     "<a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/propulsion/home.html'>Propulsion Engineering</a>" +
-    "<a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/quality/home.html'>Quality Control</a>" +
+    "<a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/quality/home.html'>Quality Engineering</a>" +
     "<a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/software/home.html'>Software Engineering</a>" +
     "<a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/structural_analysis/home.html'>Structural Analysis</a>" +
-    "<a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/systems/home.html'>Systems Engineer</a>" +
+    "<a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/systems/home.html'>Systems Engineering</a>" +
     "<a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/test/home.html'>Test Engineering</a>" +
     "<a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/thermal_analysis/home.html'>Thermal Analysis</a>";
 
