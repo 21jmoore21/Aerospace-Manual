@@ -81,6 +81,10 @@ body {
   padding-bottom: 20px;
 }
 
+iframe {
+  border: 1px solid #495A58;
+}
+
 .section_break {
   min-height: 30px;
 }
