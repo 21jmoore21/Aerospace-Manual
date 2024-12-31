@@ -66,7 +66,7 @@ body {
 .card-container {
   display: grid; /* Use grid layout */
   grid-template-columns: repeat(4, 1fr); /* Limit to 4 cards per line */
-  gap: 20px; /* Spacing between the cards */
+  gap: 40px; /* Spacing between the cards */
   padding-top: 30px;
   padding-bottom: 30px;
   max-width: 100%;
