@@ -15,9 +15,10 @@
   <link rel="stylesheet" type="text/css" href="../basic-info.css">
   <link rel="stylesheet" type="text/css" href="./home.css">
   <script src="../nav-bar.js"></script>
+  <script src="./home.js"></script>
   <link rel="icon" type="image/x-icon" href="../Secondary_Logo.png">
 </head>
-  <title>Engineering Roles - The Aerospace Manual</title>
+  <title>Article Title - The Aerospace Manual</title>
   <body onload="set_base_nav_menu()">
 
     <div id="myNav" class="overlay">
@@ -44,14 +45,110 @@
 
         <div class="content">
           
-          <p class="first_section_break"></p>
-          <p class="first_section_break"></p>
-          <p class="first_section_break"></p>
-          <h1>Coming Soon...</h1>
-          <p class="first_section_break"></p>
-          <p class="first_section_break"></p>
-          <p class="first_section_break"></p>
-          <p class="first_section_break"></p>
+          <h1>Article Title</h1>
+
+          <header>
+            <input type="text" id="searchBar" placeholder="Search articles..." oninput="filterCards()">
+        </header>
+        <div class="card-container" id="cardContainer">
+            <!-- Cards -->
+            <div class="card">
+                <img src="./photos/link_template.jpeg" alt="Article 1 Image" class="card-image">
+                <h3 class="card-title">Design Engineering</h3>
+                <p class="card-description">A brief description of Article 1. A brief description of Article 1.</p>
+                <a href="article1.html" class="card-link">Read More</a>
+            </div>
+            <div class="card">
+                <img src="./photos/link_template.jpeg" alt="Article 2 Image" class="card-image">
+                <h3 class="card-title">Dynamics Engineering</h3>
+                <p class="card-description">A brief description of Article 2.</p>
+                <a href="article2.html" class="card-link">Read More</a>
+            </div>
+            <div class="card">
+                <img src="./photos/link_template.jpeg" alt="Article 3 Image" class="card-image">
+                <h3 class="card-title">Electrical Engineering</h3>
+                <p class="card-description">A brief description of Article 3.</p>
+                <a href="article3.html" class="card-link">Read More</a>
+            </div>
+            <div class="card">
+                <img src="./photos/link_template.jpeg" alt="Article 4 Image" class="card-image">
+                <h3 class="card-title">Fluid Dynamicist</h3>
+                <p class="card-description">A brief description of Article 4.</p>
+                <a href="article4.html" class="card-link">Read More</a>
+            </div>
+            <div class="card">
+                <img src="./photos/link_template.jpeg" alt="Article 5 Image" class="card-image">
+                <h3 class="card-title">GNC Engineering</h3>
+                <p class="card-description">A brief description of Article 5.</p>
+                <a href="article5.html" class="card-link">Read More</a>
+            </div>
+            <div class="card">
+                <img src="./photos/link_template.jpeg" alt="Article 5 Image" class="card-image">
+                <h3 class="card-title">Manufacturing Engineering</h3>
+                <p class="card-description">A brief description of Article 5.</p>
+                <a href="article5.html" class="card-link">Read More</a>
+            </div>
+            <div class="card">
+                <img src="./photos/link_template.jpeg" alt="Article 5 Image" class="card-image">
+                <h3 class="card-title">Materials Science & Engineering</h3>
+                <p class="card-description">A brief description of Article 5.</p>
+                <a href="article5.html" class="card-link">Read More</a>
+            </div>
+            <div class="card">
+                <img src="./photos/link_template.jpeg" alt="Article 5 Image" class="card-image">
+                <h3 class="card-title">Payload Engineering</h3>
+                <p class="card-description">A brief description of Article 5.</p>
+                <a href="article5.html" class="card-link">Read More</a>
+            </div>
+            <div class="card">
+                <img src="./photos/link_template.jpeg" alt="Article 5 Image" class="card-image">
+                <h3 class="card-title">Program Manager</h3>
+                <p class="card-description">A brief description of Article 5.</p>
+                <a href="article5.html" class="card-link">Read More</a>
+            </div>
+            <div class="card">
+                <img src="./photos/link_template.jpeg" alt="Article 5 Image" class="card-image">
+                <h3 class="card-title">Propulsion Engineering</h3>
+                <p class="card-description">A brief description of Article 5.</p>
+                <a href="article5.html" class="card-link">Read More</a>
+            </div>
+            <div class="card">
+                <img src="./photos/link_template.jpeg" alt="Article 5 Image" class="card-image">
+                <h3 class="card-title">Quality Control</h3>
+                <p class="card-description">A brief description of Article 5.</p>
+                <a href="article5.html" class="card-link">Read More</a>
+            </div>
+            <div class="card">
+                <img src="./photos/link_template.jpeg" alt="Article 5 Image" class="card-image">
+                <h3 class="card-title">Software Engineering</h3>
+                <p class="card-description">A brief description of Article 5.</p>
+                <a href="article5.html" class="card-link">Read More</a>
+            </div>
+            <div class="card">
+                <img src="./photos/link_template.jpeg" alt="Article 5 Image" class="card-image">
+                <h3 class="card-title">Structural Analysis</h3>
+                <p class="card-description">A brief description of Article 5.</p>
+                <a href="article5.html" class="card-link">Read More</a>
+            </div>
+            <div class="card">
+                <img src="./photos/link_template.jpeg" alt="Article 5 Image" class="card-image">
+                <h3 class="card-title">Systems Engineering</h3>
+                <p class="card-description">A brief description of Article 5.</p>
+                <a href="article5.html" class="card-link">Read More</a>
+            </div>
+            <div class="card">
+                <img src="./photos/link_template.jpeg" alt="Article 5 Image" class="card-image">
+                <h3 class="card-title">Test Engineering</h3>
+                <p class="card-description">A brief description of Article 5.</p>
+                <a href="article5.html" class="card-link">Read More</a>
+            </div>
+            <div class="card">
+                <img src="./photos/link_template.jpeg" alt="Article 5 Image" class="card-image">
+                <h3 class="card-title">Thermal Analysis</h3>
+                <p class="card-description">A brief description of Article 5.</p>
+                <a href="article5.html" class="card-link">Read More</a>
+            </div>
+        </div>
 
         </div> 
 
