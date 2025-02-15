@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4BE32D9YSF"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-4BE32D9YSF');
+  </script>
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,700;1,500;1,700&family=Space+Grotesk:wght@500;700">
+  <link rel="stylesheet" type="text/css" href="../nav-bar.css">
+  <link rel="stylesheet" type="text/css" href="../basic-info.css">
+  <link rel="stylesheet" type="text/css" href="./home.css">
+  <script src="../nav-bar.js"></script>
+  <script src="./home.js"></script>
+  <link rel="icon" type="image/x-icon" href="../Secondary_Logo.png">
+</head>
+  <title>Engineering Roles - The Aerospace Manual</title>
+  <body onload="set_base_nav_menu()">
+
+    <div id="myNav" class="overlay">
+      <a class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-container">
+        <div id="overlay-column" class="overlay-column">
+        </div>
+        <div id="overlay-column-2" class="overlay-column-2">
+        </div>
+        <div id="overlay-column-3" class="overlay-column-3">
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+        <nav class="navbar">
+          <button onclick="openNav()" class="nav_bar_button">
+              <div></div>
+              <div></div>
+              <div></div>
+          </button>
+          <button onclick="window.location.href='../index.html';" class="company_name">The Aerospace Manual</button>
+        </nav>
+
+        <div class="content">
+          
+          <h1>Aerospace Engineering Roles</h1>
+
+          <header>
+            <input type="text" id="searchBar" placeholder="Search..." oninput="filterCards()">
+        </header>
+        <div class="card-container" id="cardContainer">
+            <!-- Cards -->
+            <div class="card">
+                <a href="https://www.aerospacemanual.com/engineering_roles/design/home.html" class="ovr-card-link">
+                    <img src="./photos/design.jpg" alt="Engineering Drawing" class="card-image">
+                    <h3 class="card-title">Design Engineering</h3>
+                </a>
+            </div>
+            <div class="card">
+                <a href="https://www.aerospacemanual.com/engineering_roles/dynamics/home.html" class="ovr-card-link">
+                    <img src="./photos/dynamics.jpg" alt="Space Shuttle Rocket Launch" class="card-image">
+                    <h3 class="card-title">Dynamics Engineering</h3>
+                </a>
+            </div>
+            <div class="card">
+                <a href="https://www.aerospacemanual.com/engineering_roles/electrical/home.html" class="ovr-card-link">
+                    <img src="./photos/electrical.jpg" alt="Electrical Circuit" class="card-image">
+                    <h3 class="card-title">Electrical Engineering</h3>
+                </a>
+            </div>
+            <div class="card">
+                <a href="https://www.aerospacemanual.com/engineering_roles/fluid_dynamics/home.html" class="ovr-card-link">
+                    <img src="./photos/fluid_dynamics.jpg" alt="Computational Fluid Dynamics" class="card-image">
+                    <h3 class="card-title">Fluid Dynamics</h3>
+                </a>
+            </div>
+            <div class="card">
+                <a href="https://www.aerospacemanual.com/engineering_roles/gnc/home.html" class="ovr-card-link">
+                    <img src="./photos/gnc.jpg" alt="Space Shuttle Control Panel" class="card-image">
+                    <h3 class="card-title">GNC Engineering</h3>
+                </a>
+            </div>
+            <div class="card">
+                <a href="https://www.aerospacemanual.com/engineering_roles/manufacturing/home.html" class="ovr-card-link">
+                    <img src="./photos/manufacturing.jpg" alt="Rocket Engine 3D Printing" class="card-image">
+                    <h3 class="card-title">Manufacturing Engineering</h3>
+                </a>
+            </div>
+            <div class="card">
+                <a href="https://www.aerospacemanual.com/engineering_roles/mse/home.html" class="ovr-card-link">
+                    <img src="./photos/mse.jpg" alt="Material Science" class="card-image">
+                    <h3 class="card-title">Materials Science & Engineering</h3>
+                </a>
+            </div>
+            <div class="card">
+                <a href="https://www.aerospacemanual.com/engineering_roles/payload/home.html" class="ovr-card-link">
+                    <img src="./photos/payload.jpg" alt="Rocket Payload" class="card-image">
+                    <h3 class="card-title">Payload Engineering</h3>
+                </a>
+            </div>
+            <div class="card">
+                <a href="https://www.aerospacemanual.com/engineering_roles/program_manager/home.html" class="ovr-card-link">
+                    <img src="./photos/program_manager.jpg" alt="Program Manager" class="card-image">
+                    <h3 class="card-title">Program Management</h3>
+                </a>
+            </div>
+            <div class="card">
+                <a href="https://www.aerospacemanual.com/engineering_roles/propulsion/home.html" class="ovr-card-link">
+                    <img src="./photos/propulsion.jpg" alt="Rocket Engine Test" class="card-image">
+                    <h3 class="card-title">Propulsion Engineering</h3>
+                </a>
+            </div>
+            <div class="card">
+                <a href="https://www.aerospacemanual.com/engineering_roles/quality/home.html" class="ovr-card-link">
+                    <img src="./photos/quality.jpg" alt="Quality Control Engineer" class="card-image">
+                    <h3 class="card-title">Quality Engineering</h3>
+                </a>
+            </div>
+            <div class="card">
+                <a href="https://www.aerospacemanual.com/engineering_roles/software/home.html" class="ovr-card-link">
+                    <img src="./photos/software.jpg" alt="Code" class="card-image">
+                    <h3 class="card-title">Software Engineering</h3>
+                </a>
+            </div>
+            <div class="card">
+                <a href="https://www.aerospacemanual.com/engineering_roles/structural_analysis/home.html" class="ovr-card-link">
+                    <img src="./photos/structural_analysis.jpg" alt="Structural FEA" class="card-image">
+                    <h3 class="card-title">Structural Analysis</h3>
+                </a>
+            </div>
+            <div class="card">
+                <a href="https://www.aerospacemanual.com/engineering_roles/systems/home.html" class="ovr-card-link">
+                    <img src="./photos/systems.jpg" alt="Systems Engineering" class="card-image">
+                    <h3 class="card-title">Systems Engineering</h3>
+                </a>
+            </div>
+            <div class="card">
+                <a href="https://www.aerospacemanual.com/engineering_roles/test/home.html" class="ovr-card-link">
+                    <img src="./photos/test.jpg" alt="Acoustic Testing" class="card-image">
+                    <h3 class="card-title">Test Engineering</h3>
+                </a>
+            </div>
+            <div class="card">
+                <a href="https://www.aerospacemanual.com/engineering_roles/thermal_analysis/home.html" class="ovr-card-link">
+                    <img src="./photos/thermal.jpg" alt="Thermal Analysis" class="card-image">
+                    <h3 class="card-title">Thermal Analysis</h3>
+                </a>
+            </div>
+        </div>
+
+        </div> 
+
+        <footer>
+            <p class="p2">Questions? Email: aerospacemanual@gmail.com</p>
+        </footer>
+    </div>
+</body>
+</html>
