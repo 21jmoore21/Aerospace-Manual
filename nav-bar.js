@@ -1,7 +1,7 @@
 function set_base_nav_menu() {
     var content = "<div class='overlay-content'>" +
     "<a onclick='setUnderline(this); aerospace_history()' id='Aerospace History'>Aerospace History<i class='arrow_right'></i></a>" +
-    "<a onclick='setUnderline(this); theory()'>Theory<i class='arrow_right'></i></a>" +
+    "<a href='https://www.aerospacemanual.com/theory/home.html' onclick='setUnderline(this); closeNav()'>Theory</a>" +
     "<a onclick='setUnderline(this); rocket_components()'>Rocket Components<i class='arrow_right'></i></a>" +
     "<a href='https://www.aerospacemanual.com/engineering_roles/home.html' onclick='setUnderline(this); closeNav()'>Aerospace Engineering Roles</a>" +
     "<a href='https://www.aerospacemanual.com/company_map/home.html' onclick='setUnderline(this); closeNav()'>Company Map</a>" +
@@ -157,33 +157,6 @@ function russia_history() {
         document.getElementById("overlay-column-3").innerHTML = content;
         trackButton_2(last_clicked_content);
     }    
-}
-
-function theory() {
-    var content = "<div class='overlay-content'>" +
-    "<a onclick='closeNav()' href='https://www.aerospacemanual.com/theory/basic_physics/home.html'>Basic Physics</a>" +
-    "<a onclick='closeNav()' href='https://www.aerospacemanual.com/theory/statics_dynamics/home.html'>Statics & Dynamics</a>" +
-    "<a onclick='closeNav()' href='https://www.aerospacemanual.com/theory/mechanics/home.html'>Mechanics of Materials</a>" +
-    "<a onclick='closeNav()' href='https://www.aerospacemanual.com/theory/thermo/home.html'>Thermodynamics</a>" +
-    "<a onclick='closeNav()' href='https://www.aerospacemanual.com/theory/aero/home.html'>Aerodynamics</a>" +
-    "<a onclick='closeNav()' href='https://www.aerospacemanual.com/theory/orbital/home.html'>Orbital Mechanics</a>" +
-    "<a onclick='closeNav()' href='https://www.aerospacemanual.com/theory/propulsion/home.html'>Propulsion</a>";
-
-    var last_clicked_content = 'Theory';
-    
-
-    if (lastClicked_1 == last_clicked_content) {
-        document.getElementById("overlay-column-2").innerHTML = "";
-        trackButton_1(null);
-        clear_column_1_underlines();
-    }
-    else {
-        document.getElementById("overlay-column-2").innerHTML = content;
-        trackButton_1(last_clicked_content);
-    }
-
-    trackButton_2(null)
-    document.getElementById("overlay-column-3").innerHTML = "";
 }
 
 function rocket_components() {
