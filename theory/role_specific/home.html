@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4BE32D9YSF"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-4BE32D9YSF');
+  </script>
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,700;1,500;1,700&family=Space+Grotesk:wght@500;700">
+  <link rel="stylesheet" type="text/css" href="../../nav-bar.css">
+  <link rel="stylesheet" type="text/css" href="../../basic-info.css">
+  <link rel="stylesheet" type="text/css" href="./home.css">
+  <script src="../../nav-bar.js"></script>
+  <script src="./home.js"></script>
+  <link rel="icon" type="image/x-icon" href="../../Secondary_Logo.png">
+</head>
+  <title>Role Specific Theory - The Aerospace Manual</title>
+  <body onload="set_base_nav_menu()">
+
+    <div id="myNav" class="overlay">
+      <a class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-container">
+        <div id="overlay-column" class="overlay-column">
+        </div>
+        <div id="overlay-column-2" class="overlay-column-2">
+        </div>
+        <div id="overlay-column-3" class="overlay-column-3">
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+        <nav class="navbar">
+          <button onclick="openNav()" class="nav_bar_button">
+              <div></div>
+              <div></div>
+              <div></div>
+          </button>
+          <button onclick="window.location.href='../index.html';" class="company_name">The Aerospace Manual</button>
+        </nav>
+
+        <div class="content">
+          
+          <h1>Role Specific Theory</h1>
+
+          <header>
+            <input type="text" id="searchBar" placeholder="Search..." oninput="filterCards()">
+        </header>
+        <div class="card-container" id="cardContainer">
+            <!-- Cards -->
+            <div class="card">
+                <a href="https://www.aerospacemanual.com/theory/role_specific/dynamics/home.html" class="ovr-card-link">
+                    <img src="./photos/dynamics.jpg" alt="Dynamics" class="card-image">
+                    <h3 class="card-title">Dynamics</h3>
+                </a>
+            </div>
+            <div class="card">
+                <a href="https://www.aerospacemanual.com/theory/role_specific/fluids/home.html" class="ovr-card-link">
+                    <img src="./photos/fluid_dynamics.jpg" alt="Fluid Dynamics" class="card-image">
+                    <h3 class="card-title">Fluid Dynamics</h3>
+                </a>
+            </div>
+            <div class="card">
+                <a href="https://www.aerospacemanual.com/theory/role_specific/mse/home.html" class="ovr-card-link">
+                    <img src="./photos/mse.jpg" alt="Material Science & Engineering" class="card-image">
+                    <h3 class="card-title">Material Science & Engineering</h3>
+                </a>
+            </div>
+            <div class="card">
+                <a href="https://www.aerospacemanual.com/theory/role_specific/propulsion/home.html" class="ovr-card-link">
+                    <img src="./photos/propulsion.jpg" alt="Propulsion" class="card-image">
+                    <h3 class="card-title">Propulsion</h3>
+                </a>
+            </div>
+            <div class="card">
+                <a href="https://www.aerospacemanual.com/theory/role_specific/structural_analysis/home.html" class="ovr-card-link">
+                    <img src="./photos/structural_analysis.jpg" alt="Structural Analysis" class="card-image">
+                    <h3 class="card-title">Structural Analysis</h3>
+                </a>
+            </div>
+            <div class="card">
+                <a href="https://www.aerospacemanual.com/theory/role_specific/thermal_analysis/home.html" class="ovr-card-link">
+                    <img src="./photos/thermal.jpg" alt="Thermal Analysis" class="card-image">
+                    <h3 class="card-title">Thermal Analysis</h3>
+                </a>
+            </div>
+        </div>
+
+        </div> 
+
+        <footer>
+            <p class="p2">Questions? Email: aerospacemanual@gmail.com</p>
+        </footer>
+    </div>
+</body>
+</html>

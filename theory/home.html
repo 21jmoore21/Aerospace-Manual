@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4BE32D9YSF"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-4BE32D9YSF');
+  </script>
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,700;1,500;1,700&family=Space+Grotesk:wght@500;700">
+  <link rel="stylesheet" type="text/css" href="../nav-bar.css">
+  <link rel="stylesheet" type="text/css" href="../basic-info.css">
+  <link rel="stylesheet" type="text/css" href="./home.css">
+  <script src="../nav-bar.js"></script>
+  <script src="./home.js"></script>
+  <link rel="icon" type="image/x-icon" href="../Secondary_Logo.png">
+</head>
+  <title>Theory - The Aerospace Manual</title>
+  <body onload="set_base_nav_menu()">
+
+    <div id="myNav" class="overlay">
+      <a class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-container">
+        <div id="overlay-column" class="overlay-column">
+        </div>
+        <div id="overlay-column-2" class="overlay-column-2">
+        </div>
+        <div id="overlay-column-3" class="overlay-column-3">
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+        <nav class="navbar">
+          <button onclick="openNav()" class="nav_bar_button">
+              <div></div>
+              <div></div>
+              <div></div>
+          </button>
+          <button onclick="window.location.href='../index.html';" class="company_name">The Aerospace Manual</button>
+        </nav>
+
+        <div class="content">
+          
+          <h1>Aerospace Engineering Theory</h1>
+
+          <header>
+            <input type="text" id="searchBar" placeholder="Search..." oninput="filterCards()">
+        </header>
+        <div class="card-container" id="cardContainer">
+            <!-- Cards -->
+            <div class="card">
+                <a href="https://www.aerospacemanual.com/theory/math/home.html" class="ovr-card-link">
+                    <img src="./photos/math.jpg" alt="Math" class="card-image">
+                    <h3 class="card-title">Math</h3>
+                </a>
+            </div>
+            <div class="card">
+                <a href="https://www.aerospacemanual.com/theory/physics/home.html" class="ovr-card-link">
+                    <img src="./photos/physics.jpeg" alt="Physics" class="card-image">
+                    <h3 class="card-title">Physics</h3>
+                </a>
+            </div>
+            <div class="card">
+                <a href="https://www.aerospacemanual.com/theory/statics/home.html" class="ovr-card-link">
+                    <img src="./photos/statics.png" alt="Statics" class="card-image">
+                    <h3 class="card-title">Statics</h3>
+                </a>
+            </div>
+            <div class="card">
+                <a href="https://www.aerospacemanual.com/theory/dynamics/home.html" class="ovr-card-link">
+                    <img src="./photos/dynamics.jpg" alt="Dynamics" class="card-image">
+                    <h3 class="card-title">Dynamics</h3>
+                </a>
+            </div>
+            <div class="card">
+                <a href="https://www.aerospacemanual.com/theory/mechanics/home.html" class="ovr-card-link">
+                    <img src="./photos/mechanics.jpeg" alt="Mechanics" class="card-image">
+                    <h3 class="card-title">Mechanics of Materials</h3>
+                </a>
+            </div>
+            <div class="card">
+                <a href="https://www.aerospacemanual.com/theory/thermo/home.html" class="ovr-card-link">
+                    <img src="./photos/thermo.jpg" alt="Thermo" class="card-image">
+                    <h3 class="card-title">Thermodynamics</h3>
+                </a>
+            </div>
+            <div class="card">
+                <a href="https://www.aerospacemanual.com/theory/fluids/home.html" class="ovr-card-link">
+                    <img src="./photos/fluids.jpg" alt="Fluids" class="card-image">
+                    <h3 class="card-title">Fluid Dynamics</h3>
+                </a>
+            </div>
+            <div class="card">
+                <a href="https://www.aerospacemanual.com/theory/heat_transfer/home.html" class="ovr-card-link">
+                    <img src="./photos/heat_transfer.jpg" alt="Heat Transfer" class="card-image">
+                    <h3 class="card-title">Heat Transfer</h3>
+                </a>
+            </div>
+            <div class="card">
+                <a href="https://www.aerospacemanual.com/theory/aero/home.html" class="ovr-card-link">
+                    <img src="./photos/aerodynamics.jpg" alt="Aerodynamics" class="card-image">
+                    <h3 class="card-title">Aerodynamics</h3>
+                </a>
+            </div>
+            <div class="card">
+                <a href="https://www.aerospacemanual.com/theory/orbital/home.html" class="ovr-card-link">
+                    <img src="./photos/orbital.jpeg" alt="Orbital Mechanics" class="card-image">
+                    <h3 class="card-title">Orbital Mechanics</h3>
+                </a>
+            </div>
+            <div class="card">
+                <a href="https://www.aerospacemanual.com/theory/role_specific/home.html" class="ovr-card-link">
+                    <img src="./photos/role_specific.png" alt="Role Specific" class="card-image">
+                    <h3 class="card-title">Role Specific</h3>
+                </a>
+            </div>
+        </div>
+
+        </div> 
+
+        <footer>
+            <p class="p2">Questions? Email: aerospacemanual@gmail.com</p>
+        </footer>
+    </div>
+</body>
+</html>
