@@ -108,6 +108,59 @@ body {
   height: auto; /* Maintains aspect ratio */
 }
 
+/* Quiz Section */
+.question {
+  margin-bottom: 20px;
+}
+
+.solution {
+  display: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.5em;
+  letter-spacing: 0.01em;
+  text-transform: none;
+  font-size: 16px;
+  margin-top: 5px;
+  padding: 5px 10px;
+  background-color: #FFFFFF;
+}
+
+.sol_w {
+  text-align: center;
+}
+
+.sol_a {
+  text-align: left;
+}
+
+.toggle-btn {
+  background-color: transparent;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.5em;
+  letter-spacing: 0.01em;
+  text-transform: none;
+  font-size: 16px;
+  color: #495A58;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.caret {
+  margin-right: 8px;
+  transition: transform 0.3s ease;
+}
+.caret.open {
+  transform: rotate(90deg);
+}
+
 /* Author Section */
 hr.faint-line {
   border: 0;
