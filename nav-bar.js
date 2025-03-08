@@ -16,10 +16,19 @@ function openNav() {
     document.getElementById("myNav").style.width = "100%";
     clearNav();
   }
-  
+
 function closeNav() {
+    // Assuming there's only one close button, otherwise target a specific index (e.g., closeBtn[0])
+    let closeBtn = document.getElementsByClassName('closebtn')[0];
+    
+    // Add the rotate class to the close button
+    closeBtn.classList.add('rotate');
+    
+    // Close the navigation menu by changing its width
     document.getElementById("myNav").style.width = "0%";
-    clearNav();
+    
+    // Clear the navigation after the animation completes
+    setTimeout(clearNav, 300);
 }
 
 function clearNav() {
@@ -29,6 +38,10 @@ function clearNav() {
     trackButton_2(null);
     clear_column_1_underlines();
     clear_column_2_underlines();
+
+    // Remove rotation
+    let closeBtn = document.getElementsByClassName('closebtn')[0];
+    closeBtn.classList.remove('rotate');
 }
 
 function clear_column_1_underlines() {

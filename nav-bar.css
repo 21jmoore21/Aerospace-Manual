@@ -109,11 +109,17 @@ div.navbar button {
 }
 
 .overlay .closebtn {
+  padding-right: 8px;
   position: absolute;
   top: 12px;
   left: 53px;
   font-size: 40px;
   cursor: pointer;
+  transition: transform 0.3s ease-in-out; /* Smooth transition for rotation */
+}
+
+.overlay .closebtn.rotate {
+  transform: rotate(90deg); /* Apply 90-degree rotation */
 }
 
 .arrow_right {
