@@ -3,6 +3,14 @@ body {
   background-color: #E5E3DC;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+h3, h4 {
+  scroll-margin-top: 90px; /* Matches your navbar height */
+}
+
 /* Navbar */
 .navbar {
   background-color: #E5E3DC; /* Button background */
@@ -77,6 +85,10 @@ body {
   padding-bottom: 20px;
 }
 
+.half_section_break {
+  min-height: 15px;
+}
+
 .section_break {
   min-height: 30px;
 }
@@ -106,6 +118,37 @@ body {
 .example_image_2 {
   width: 100%; /* Ensures the image scales with its container */
   height: auto; /* Maintains aspect ratio */
+}
+
+/* Table of Contents */
+.caret_toc {
+  margin-bottom: 15px;
+  margin-right: 10px;
+  font-size: 20px;
+  transition: transform 0.3s ease;
+}
+.caret_toc.open {
+  transform: rotate(90deg);
+}
+
+.toc_list {
+  display: none;
+  text-decoration: none;
+  margin-left: 25px;
+}
+
+.toc_subsection {
+  margin-left: 20px;
+}
+
+#toc a {
+  text-decoration: none;  /* Removes underline */
+  color: inherit;         /* Matches the text color of surrounding content */
+  cursor: pointer;        /* Ensures it still behaves like a link */
+}
+
+#toc a:hover {
+  text-decoration: underline;  /* Optional: Add subtle underline on hover for clarity */
 }
 
 /* Quiz Section */
