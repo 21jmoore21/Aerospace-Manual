@@ -119,7 +119,7 @@ div.navbar button {
 }
 
 .overlay .closebtn.rotate {
-  transform: rotate(90deg); /* Apply 90-degree rotation */
+  transform: rotate(-90deg); /* Apply 90-degree rotation */
 }
 
 .arrow_right {
