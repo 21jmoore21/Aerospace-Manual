@@ -135,6 +135,7 @@ h3, h4 {
   display: none;
   text-decoration: none;
   margin-left: 25px;
+  margin-bottom: 25px;
 }
 
 .toc_subsection {
