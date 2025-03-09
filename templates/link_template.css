@@ -1,0 +1,172 @@
+/* Basic Info */
+body {
+  background-color: #E5E3DC;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #E5E3DC; /* Button background */
+}
+
+.nav_bar_button {
+  background-color: #E5E3DC; /* Button background */
+}
+
+.nav_bar_button div {
+  background-color: #495A58; /* Line color */
+}
+
+.company_name {
+  background-color: #E5E3DC;
+  color: #495A58;
+}
+
+/* Content Layout */
+.content {
+  align-items: left;
+  padding-left: 55px;
+  padding-right: 55px;
+  padding-top: 125px;
+  padding-bottom: 0px;
+  color: #495A58;
+}
+
+.content h1 {
+  color: #495A58;
+  padding-bottom: 0px;
+  text-align: center;
+}
+
+.content h3 {
+  color: #495A58;
+}
+
+.content h4 {
+  color: #D4967D;
+  padding-bottom: 15px;
+}
+
+.content h5 {
+  color: #D4967D;
+  padding-bottom: 0px;
+  text-align: center;
+}
+
+.content h6 {
+  color: #D4967D;
+  padding-top: 5px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.content p {
+  color: #495A58;
+}
+
+.card-container {
+  display: grid; /* Use grid layout */
+  grid-template-columns: repeat(4, 1fr); /* Limit to 4 cards per line */
+  gap: 40px; /* Spacing between the cards */
+  padding-top: 30px;
+  padding-bottom: 30px;
+  max-width: 100%;
+  justify-items: center; /* Center each card within its grid cell */
+}
+
+.card {
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(48, 54, 54, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card img {
+  width: 100%; /* Make image take the full width of the card */ 
+  height: 200px; /* Maintain the aspect ratio of the image */
+  border-top-left-radius: 8px; /* Rounded top corners */
+  border-top-right-radius: 8px; /* Rounded top corners */
+  object-fit: cover; /* Ensure the image covers the space without distortion */
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(48, 54, 54, 0.2);
+  z-index:0;
+}
+
+.ovr-card-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  display: flex; /* Enable Flexbox on the card */
+  flex-direction: column; /* Stack items vertically */
+  justify-content: flex-start; /* Align content at the top */
+  align-items: center; /* Center content horizontally */
+  width: 300px; /* Fixed width for each card */
+  height: 260px; /* Set a consistent height */
+}
+
+.card-title {
+  text-align: center; /* Centers the text horizontally */
+  font-size: 1.5rem;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #495A58;
+}
+
+header {
+  text-align: left;
+  margin: 20px 0;
+}
+
+#searchBar {
+  width: 80%;
+  max-width: 400px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 2px solid #FFFFFF;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  margin-top: 20px;
+}
+
+#searchBar:focus {
+  outline: none;
+  border: 2px solid #495A58; /* Custom border color (optional) */
+}
+
+
+@media (max-width: 1350px) {
+  .card-container {
+      grid-template-columns: repeat(3, 1fr); /* 3 cards per line on medium screens */
+  }
+}
+
+@media (max-width: 1024px) {
+  .card-container {
+      grid-template-columns: repeat(2, 1fr); /* 2 cards per line on medium screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .card-container {
+      grid-template-columns: repeat(1, 1fr); /* 1 card per line on smaller screens */
+  }
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 50px;
+  padding: 50px;
+  background-color: #495A58;
+  color: #E5E3DC;
+}
+
+footer p {
+  color: #E5E3DC;
+  text-decoration: none;
+}
