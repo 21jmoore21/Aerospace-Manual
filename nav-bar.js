@@ -5,7 +5,7 @@ function set_base_nav_menu() {
     "<a onclick='setUnderline(this); rocket_components()'>Rocket Components<i class='arrow_right'></i></a>" +
     "<a href='https://www.aerospacemanual.com/engineering_roles/home.html' onclick='setUnderline(this); closeNav()'>Aerospace Engineering Roles</a>" +
     "<a href='https://www.aerospacemanual.com/company_map/home.html' onclick='setUnderline(this); closeNav()'>Company Map</a>" +
-    "<a href='https://www.aerospacemanual.com/Authors/home.html' onclick='setUnderline(this); closeNav()'>Authors</a>";
+    "<a href='https://www.aerospacemanual.com/authors/home.html' onclick='setUnderline(this); closeNav()'>Authors</a>";
 
     document.getElementById("overlay-column").innerHTML = content;
 
