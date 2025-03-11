@@ -28,7 +28,7 @@ function closeNav() {
     document.getElementById("myNav").style.width = "0%";
     
     // Clear the navigation after the animation completes
-    setTimeout(clearNav, 300);
+    setTimeout(clearNav, 400);
 }
 
 function clearNav() {
