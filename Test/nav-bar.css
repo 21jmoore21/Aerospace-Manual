@@ -98,7 +98,12 @@ div.navbar button {
 
 /* Permanent underline for clicked item */
 .overlay-content a.underlined {
+  opacity: 1;
   text-decoration: underline !important;
+}
+
+.overlay-content a.highlighted {
+  opacity: 1 !important;
 }
 
 .overlay-content a.faded {
@@ -133,7 +138,7 @@ div.navbar button {
 }
 
 .overlay-content i.faded {
-  opacity: 0.5;  /* Fade out effect */
+  opacity: 0.5;
 }
 
 .overlay .closebtn {

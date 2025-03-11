@@ -55,55 +55,86 @@ function clearNav() {
 }
 
 function clear_column_1_underlines() {
-    // Remove the 'underlined' class from all items
-    const links = document.querySelectorAll('.overlay-column a');
+    // Remove the 'underlined', 'faded', and 'highlighted' classes from all items
+    const links = document.querySelectorAll('.overlay-column i, .overlay-column a');
     links.forEach(link => {
-        link.classList.remove('underlined', 'faded');
-      });
+        link.classList.remove('underlined', 'faded', 'highlighted');
+    });
 }
 
 function setUnderline(clickedElement) {
-    // Remove the 'underlined' class from all items
-    const links = document.querySelectorAll('.overlay-column a');
+    // Find the parent div with class 'nav_group' for the clicked element
+    const navGroup = clickedElement.closest('.nav_group');
+    
+    // Select all child elements inside the nav_group
+    const children = navGroup.querySelectorAll('*');
+    
+    // Remove the 'underlined', 'faded', and 'highlighted' classes from all items
+    const links = document.querySelectorAll('.overlay-column i, .overlay-column a');
     links.forEach(link => {
-        link.classList.remove('underlined', 'faded');
-      });
-  
-    // Add the 'underlined' class to the clicked item
-    clickedElement.classList.add('underlined');
+        link.classList.remove('underlined', 'faded', 'highlighted');
+    });
 
-    // Fade out the unclicked items
-    links.forEach(link => {
-        if (link !== clickedElement) {
-        link.classList.add('faded');
+    // Apply the 'highlighted' class to the clicked element
+    clickedElement.classList.add('highlighted');
+
+    // Fade out all <a> elements in other .nav_group divs, not in the current navGroup
+    const allNavGroups = document.querySelectorAll('.overlay-column .nav_group');
+    allNavGroups.forEach(group => {
+        if (group !== navGroup) {
+            const linksInOtherGroups = group.querySelectorAll('a');
+            linksInOtherGroups.forEach(link => {
+                link.classList.add('faded');
+            });
         }
     });
-  }
+
+    // Apply the 'highlighted' class to all child elements inside nav_group
+    children.forEach(child => {
+        child.classList.add('highlighted');
+    });
+}
 
 function clear_column_2_underlines() {
     // Remove the 'underlined' class from all items
-    const links = document.querySelectorAll('.overlay-column-2 a');
+    const links = document.querySelectorAll('.overlay-column-2 i, .overlay-column-2 a');
     links.forEach(link => {
-        link.classList.remove('underlined', 'faded');
+        link.classList.remove('underlined', 'faded', 'highlighted');
       });  
 }
 
 function setUnderline_2(clickedElement) {
-    const links = document.querySelectorAll('.overlay-column-2 a');
+    // Find the parent div with class 'nav_group' for the clicked element
+    const navGroup = clickedElement.closest('.nav_group');
+    
+    // Select all child elements inside the nav_group
+    const children = navGroup.querySelectorAll('*');
+    
+    // Remove the 'underlined', 'faded', and 'highlighted' classes from all items
+    const links = document.querySelectorAll('.overlay-column-2 i, .overlay-column-2 a');
     links.forEach(link => {
-        link.classList.remove('underlined', 'faded');
-      });  
-  
-    // Add the 'underlined' class to the clicked item
-    clickedElement.classList.add('underlined');
+        link.classList.remove('underlined', 'faded', 'highlighted');
+    });
 
-    // Fade out the unclicked items
-    links.forEach(link => {
-        if (link !== clickedElement) {
-        link.classList.add('faded');
+    // Apply the 'highlighted' class to the clicked element
+    clickedElement.classList.add('highlighted');
+
+    // Fade out all <a> elements in other .nav_group divs, not in the current navGroup
+    const allNavGroups = document.querySelectorAll('.overlay-column-2 .nav_group');
+    allNavGroups.forEach(group => {
+        if (group !== navGroup) {
+            const linksInOtherGroups = group.querySelectorAll('a');
+            linksInOtherGroups.forEach(link => {
+                link.classList.add('faded');
+            });
         }
     });
-  }
+
+    // Apply the 'underlined' class to all child elements inside nav_group
+    children.forEach(child => {
+        child.classList.add('highlighted');
+    });
+}
 
 let lastClicked_1 = null;
 let lastClicked_2 = null;
