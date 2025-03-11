@@ -93,7 +93,22 @@ function setUnderline(clickedElement) {
     children.forEach(child => {
         child.classList.add('highlighted');
     });
+
+    resetScroll_column2();
+    resetScroll_column3();
 }
+
+function resetScroll_column1() {
+    document.getElementById('overlay-column').scrollTop = 0;
+  }
+
+function resetScroll_column2() {
+    document.getElementById('overlay-column-2').scrollTop = 0;
+  }
+
+function resetScroll_column3() {
+    document.getElementById('overlay-column-3').scrollTop = 0;
+  }
 
 function clear_column_2_underlines() {
     // Remove the 'underlined' class from all items
@@ -134,6 +149,8 @@ function setUnderline_2(clickedElement) {
     children.forEach(child => {
         child.classList.add('highlighted');
     });
+
+    resetScroll_column3();
 }
 
 let lastClicked_1 = null;
