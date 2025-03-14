@@ -1,3 +1,5 @@
+window.history.replaceState(null, "", window.location.pathname);
+
 function toggleSolution(id, caretId) {
     var solution = document.getElementById(id);
     var caret = document.getElementById(caretId);
