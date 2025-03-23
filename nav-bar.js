@@ -449,37 +449,54 @@ function ets_components() {
 
 function engineering_roles() {
     var content = "<div class='overlay-content'>" +
-    "<div class='nav_group'><a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/design/home.html'>Design Engineering</a></div>" +
 
-    "<div class='nav_group'><a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/dynamics/home.html'>Dynamics Engineering</a></div>" +
+    "<div class='nav_group'><a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/design/home.html'>Design Engineering</a>" +
+    "<i onclick='setUnderline_2(this); design_engineering()' class='arrow_right'></i></div>" +
 
-    "<div class='nav_group'><a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/electrical/home.html'>Electrical Engineering</a></div>" +
+    "<div class='nav_group'><a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/dynamics/home.html'>Dynamics Engineering</a>" +
+    "<i onclick='setUnderline_2(this); dynamics_engineering()' class='arrow_right'></i></div>" +
 
-    "<div class='nav_group'><a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/fluid_dynamics/home.html'>Fluid Dynamics</a></div>" +
+    "<div class='nav_group'><a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/electrical/home.html'>Electrical Engineering</a>" +
+    "<i onclick='setUnderline_2(this); electrical_engineering()' class='arrow_right'></i></div>" +
 
-    "<div class='nav_group'><a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/gnc/home.html'>GNC Engineering</a></div>" +
+    "<div class='nav_group'><a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/fluid_dynamics/home.html'>Fluid Dynamics</a>" +
+    "<i onclick='setUnderline_2(this); fluid_dynamics()' class='arrow_right'></i></div>" +
 
-    "<div class='nav_group'><a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/manufacturing/home.html'>Manufacturing Engineering</a></div>" +
+    "<div class='nav_group'><a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/gnc/home.html'>GNC Engineering</a>" +
+    "<i onclick='setUnderline_2(this); gnc_engineering()' class='arrow_right'></i></div>" +
 
-    "<div class='nav_group'><a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/mse/home.html'>Materials Science & Engineering</a></div>" +
+    "<div class='nav_group'><a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/manufacturing/home.html'>Manufacturing Engineering</a>" +
+    "<i onclick='setUnderline_2(this); manufacturing_engineering()' class='arrow_right'></i></div>" +
 
-    "<div class='nav_group'><a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/payload/home.html'>Payload Engineering</a></div>" +
+    "<div class='nav_group'><a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/mse/home.html'>Materials Science & Engineering</a>" +
+    "<i onclick='setUnderline_2(this); mse()' class='arrow_right'></i></div>" +
 
-    "<div class='nav_group'><a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/program_manager/home.html'>Program Management</a></div>" +
+    "<div class='nav_group'><a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/payload/home.html'>Payload Engineering</a>" +
+    "<i onclick='setUnderline_2(this); payload_engineering()' class='arrow_right'></i></div>" +
 
-    "<div class='nav_group'><a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/propulsion/home.html'>Propulsion Engineering</a></div>" +
+    "<div class='nav_group'><a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/program_manager/home.html'>Program Management</a>" +
+    "<i onclick='setUnderline_2(this); program_manager()' class='arrow_right'></i></div>" +
 
-    "<div class='nav_group'><a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/quality/home.html'>Quality Engineering</a></div>" +
+    "<div class='nav_group'><a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/propulsion/home.html'>Propulsion Engineering</a>" +
+    "<i onclick='setUnderline_2(this); propulsion_engineering()' class='arrow_right'></i></div>" +
 
-    "<div class='nav_group'><a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/software/home.html'>Software Engineering</a></div>" +
+    "<div class='nav_group'><a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/quality/home.html'>Quality Engineering</a>" +
+    "<i onclick='setUnderline_2(this); quality_engineering()' class='arrow_right'></i></div>" +
 
-    "<div class='nav_group'><a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/structural_analysis/home.html'>Structural Analysis</a></div>" +
+    "<div class='nav_group'><a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/software/home.html'>Software Engineering</a>" +
+    "<i onclick='setUnderline_2(this); software_engineering()' class='arrow_right'></i></div>" +
 
-    "<div class='nav_group'><a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/systems/home.html'>Systems Engineering</a></div>" +
+    "<div class='nav_group'><a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/structural_analysis/home.html'>Structural Analysis</a>" +
+    "<i onclick='setUnderline_2(this); structural_analysis()' class='arrow_right'></i></div>" +
 
-    "<div class='nav_group'><a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/test/home.html'>Test Engineering</a></div>" +
+    "<div class='nav_group'><a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/systems/home.html'>Systems Engineering</a>" +
+    "<i onclick='setUnderline_2(this); systems_engineering()' class='arrow_right'></i></div>" +
 
-    "<div class='nav_group'><a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/thermal_analysis/home.html'>Thermal Analysis</a></div>";
+    "<div class='nav_group'><a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/test/home.html'>Test Engineering</a>" +
+    "<i onclick='setUnderline_2(this); test_engineering()' class='arrow_right'></i></div>" +
+
+    "<div class='nav_group'><a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/thermal_analysis/home.html'>Thermal Analysis</a>" +
+    "<i onclick='setUnderline_2(this); thermal_analysis()' class='arrow_right'></i></div>";
 
     var last_clicked_content = 'Engineering Roles';
 
@@ -496,4 +513,292 @@ function engineering_roles() {
 
     trackButton_2(null)
     document.getElementById("overlay-column-3").innerHTML = "";
+}
+
+function design_engineering() {
+    var content = "<div class='overlay-content'>" +
+    "<div class='nav_group'><a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/design/overview.html'>Overview</a></div>";
+
+    var last_clicked_content = 'Design Engineering';
+
+
+    if (lastClicked_2 == last_clicked_content) {
+        document.getElementById("overlay-column-3").innerHTML = "";
+        trackButton_2(null);
+        clear_column_2_underlines();
+    }
+    else {
+        document.getElementById("overlay-column-3").innerHTML = content;
+        trackButton_2(last_clicked_content);
+    }    
+}
+
+function dynamics_engineering() {
+    var content = "<div class='overlay-content'>" +
+    "<div class='nav_group'><a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/dynamics/overview.html'>Overview</a></div>";
+
+    var last_clicked_content = 'Dynamics Engineering';
+
+
+    if (lastClicked_2 == last_clicked_content) {
+        document.getElementById("overlay-column-3").innerHTML = "";
+        trackButton_2(null);
+        clear_column_2_underlines();
+    }
+    else {
+        document.getElementById("overlay-column-3").innerHTML = content;
+        trackButton_2(last_clicked_content);
+    }    
+}
+
+function electrical_engineering() {
+    var content = "<div class='overlay-content'>" +
+    "<div class='nav_group'><a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/electrical/overview.html'>Overview</a></div>";
+
+    var last_clicked_content = 'Electrical Engineering';
+
+
+    if (lastClicked_2 == last_clicked_content) {
+        document.getElementById("overlay-column-3").innerHTML = "";
+        trackButton_2(null);
+        clear_column_2_underlines();
+    }
+    else {
+        document.getElementById("overlay-column-3").innerHTML = content;
+        trackButton_2(last_clicked_content);
+    }    
+}
+
+function fluid_dynamics() {
+    var content = "<div class='overlay-content'>" +
+    "<div class='nav_group'><a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/fluid_dynamics/overview.html'>Overview</a></div>";
+
+    var last_clicked_content = 'Fluid Dynamics Engineering';
+
+
+    if (lastClicked_2 == last_clicked_content) {
+        document.getElementById("overlay-column-3").innerHTML = "";
+        trackButton_2(null);
+        clear_column_2_underlines();
+    }
+    else {
+        document.getElementById("overlay-column-3").innerHTML = content;
+        trackButton_2(last_clicked_content);
+    }    
+}
+
+function gnc_engineering() {
+    var content = "<div class='overlay-content'>" +
+    "<div class='nav_group'><a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/gnc/overview.html'>Overview</a></div>";
+
+    var last_clicked_content = 'GNC Engineering';
+
+
+    if (lastClicked_2 == last_clicked_content) {
+        document.getElementById("overlay-column-3").innerHTML = "";
+        trackButton_2(null);
+        clear_column_2_underlines();
+    }
+    else {
+        document.getElementById("overlay-column-3").innerHTML = content;
+        trackButton_2(last_clicked_content);
+    }    
+}
+
+function manufacturing_engineering() {
+    var content = "<div class='overlay-content'>" +
+    "<div class='nav_group'><a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/manufacturing/overview.html'>Overview</a></div>";
+
+    var last_clicked_content = 'Manufacturing Engineering';
+
+
+    if (lastClicked_2 == last_clicked_content) {
+        document.getElementById("overlay-column-3").innerHTML = "";
+        trackButton_2(null);
+        clear_column_2_underlines();
+    }
+    else {
+        document.getElementById("overlay-column-3").innerHTML = content;
+        trackButton_2(last_clicked_content);
+    }    
+}
+
+function mse() {
+    var content = "<div class='overlay-content'>" +
+    "<div class='nav_group'><a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/mse/overview.html'>Overview</a></div>";
+
+    var last_clicked_content = 'Materials Science & Engineering';
+
+
+    if (lastClicked_2 == last_clicked_content) {
+        document.getElementById("overlay-column-3").innerHTML = "";
+        trackButton_2(null);
+        clear_column_2_underlines();
+    }
+    else {
+        document.getElementById("overlay-column-3").innerHTML = content;
+        trackButton_2(last_clicked_content);
+    }    
+}
+
+function payload_engineering() {
+    var content = "<div class='overlay-content'>" +
+    "<div class='nav_group'><a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/payload/overview.html'>Overview</a></div>";
+
+    var last_clicked_content = 'Payload Engineering';
+
+
+    if (lastClicked_2 == last_clicked_content) {
+        document.getElementById("overlay-column-3").innerHTML = "";
+        trackButton_2(null);
+        clear_column_2_underlines();
+    }
+    else {
+        document.getElementById("overlay-column-3").innerHTML = content;
+        trackButton_2(last_clicked_content);
+    }    
+}
+
+function program_manager() {
+    var content = "<div class='overlay-content'>" +
+    "<div class='nav_group'><a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/program_manager/overview.html'>Overview</a></div>";
+
+    var last_clicked_content = 'Program Manager';
+
+
+    if (lastClicked_2 == last_clicked_content) {
+        document.getElementById("overlay-column-3").innerHTML = "";
+        trackButton_2(null);
+        clear_column_2_underlines();
+    }
+    else {
+        document.getElementById("overlay-column-3").innerHTML = content;
+        trackButton_2(last_clicked_content);
+    }    
+}
+
+function propulsion_engineering() {
+    var content = "<div class='overlay-content'>" +
+    "<div class='nav_group'><a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/propulsion/overview.html'>Overview</a></div>";
+
+    var last_clicked_content = 'Propulsion Engineering';
+
+
+    if (lastClicked_2 == last_clicked_content) {
+        document.getElementById("overlay-column-3").innerHTML = "";
+        trackButton_2(null);
+        clear_column_2_underlines();
+    }
+    else {
+        document.getElementById("overlay-column-3").innerHTML = content;
+        trackButton_2(last_clicked_content);
+    }    
+}
+
+function quality_engineering() {
+    var content = "<div class='overlay-content'>" +
+    "<div class='nav_group'><a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/quality/overview.html'>Overview</a></div>";
+
+    var last_clicked_content = 'Quality Engineering';
+
+
+    if (lastClicked_2 == last_clicked_content) {
+        document.getElementById("overlay-column-3").innerHTML = "";
+        trackButton_2(null);
+        clear_column_2_underlines();
+    }
+    else {
+        document.getElementById("overlay-column-3").innerHTML = content;
+        trackButton_2(last_clicked_content);
+    }    
+}
+
+function software_engineering() {
+    var content = "<div class='overlay-content'>" +
+    "<div class='nav_group'><a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/software/overview.html'>Overview</a></div>";
+
+    var last_clicked_content = 'Software Engineering';
+
+
+    if (lastClicked_2 == last_clicked_content) {
+        document.getElementById("overlay-column-3").innerHTML = "";
+        trackButton_2(null);
+        clear_column_2_underlines();
+    }
+    else {
+        document.getElementById("overlay-column-3").innerHTML = content;
+        trackButton_2(last_clicked_content);
+    }    
+}
+
+function structural_analysis() {
+    var content = "<div class='overlay-content'>" +
+    "<div class='nav_group'><a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/structural_analysis/overview.html'>Overview</a></div>";
+
+    var last_clicked_content = 'Structural Analysis';
+
+
+    if (lastClicked_2 == last_clicked_content) {
+        document.getElementById("overlay-column-3").innerHTML = "";
+        trackButton_2(null);
+        clear_column_2_underlines();
+    }
+    else {
+        document.getElementById("overlay-column-3").innerHTML = content;
+        trackButton_2(last_clicked_content);
+    }    
+}
+
+function systems_engineering() {
+    var content = "<div class='overlay-content'>" +
+    "<div class='nav_group'><a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/systems/overview.html'>Overview</a></div>";
+
+    var last_clicked_content = 'Systems Engineering';
+
+
+    if (lastClicked_2 == last_clicked_content) {
+        document.getElementById("overlay-column-3").innerHTML = "";
+        trackButton_2(null);
+        clear_column_2_underlines();
+    }
+    else {
+        document.getElementById("overlay-column-3").innerHTML = content;
+        trackButton_2(last_clicked_content);
+    }    
+}
+
+function test_engineering() {
+    var content = "<div class='overlay-content'>" +
+    "<div class='nav_group'><a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/test/overview.html'>Overview</a></div>";
+
+    var last_clicked_content = 'Test Engineering';
+
+
+    if (lastClicked_2 == last_clicked_content) {
+        document.getElementById("overlay-column-3").innerHTML = "";
+        trackButton_2(null);
+        clear_column_2_underlines();
+    }
+    else {
+        document.getElementById("overlay-column-3").innerHTML = content;
+        trackButton_2(last_clicked_content);
+    }    
+}
+
+function thermal_analysis() {
+    var content = "<div class='overlay-content'>" +
+    "<div class='nav_group'><a onclick='closeNav()' href='https://www.aerospacemanual.com/engineering_roles/thermal_analysis/overview.html'>Overview</a></div>";
+
+    var last_clicked_content = 'Thermal Analysis';
+
+
+    if (lastClicked_2 == last_clicked_content) {
+        document.getElementById("overlay-column-3").innerHTML = "";
+        trackButton_2(null);
+        clear_column_2_underlines();
+    }
+    else {
+        document.getElementById("overlay-column-3").innerHTML = content;
+        trackButton_2(last_clicked_content);
+    }    
 }

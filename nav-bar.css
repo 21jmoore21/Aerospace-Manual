@@ -178,6 +178,7 @@ div.navbar button {
   padding: 10px;
   max-height: 100vh; /* Set the maximum height */
   overflow-y: auto;  /* Enable vertical scrolling when content overflows */
+  min-width: 33.5%;
 }
 
 .overlay-column-2 {
@@ -186,6 +187,7 @@ div.navbar button {
   padding: 10px;
   max-height: 100vh; /* Set the maximum height */
   overflow-y: auto;  /* Enable vertical scrolling when content overflows */
+  min-width: 38%;
 }
 
 .overlay-column-3 {
