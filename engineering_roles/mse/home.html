@@ -15,6 +15,7 @@
   <link rel="stylesheet" type="text/css" href="../../basic-info.css">
   <link rel="stylesheet" type="text/css" href="./home.css">
   <script src="../../nav-bar.js"></script>
+  <script src="./home.js"></script>
   <link rel="icon" type="image/x-icon" href="../../Secondary_Logo.png">
 </head>
   <title>Materials Science & Engineering - The Aerospace Manual</title>
@@ -44,9 +45,20 @@
 
         <div class="content">
           
-          <p class="first_section_break"></p>
-          <p class="first_section_break"></p>
-          <h1>Coming Soon...</h1>
+          <h1>Materials Science & Engineering</h1>
+
+          <header>
+            <input type="text" id="searchBar" placeholder="Search..." oninput="filterCards()">
+        </header>
+        <div class="card-container" id="cardContainer">
+            <!-- Cards -->
+            <div class="card">
+                <a href="https://www.aerospacemanual.com/engineering_roles/mse/overview.html" class="ovr-card-link">
+                    <img src="../photos/mse.jpg" alt="Materials Science & Engineering" class="card-image">
+                    <h3 class="card-title">Overview</h3>
+                </a>
+            </div>
+        </div>
 
         </div> 
 
