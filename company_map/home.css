@@ -1,6 +1,14 @@
 /* Basic Info */
 body {
   background-color: #E5E3DC;
+  flex-direction: column;
+  display: flex;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+  margin-bottom: 50px;
 }
 
 /* Navbar */
@@ -148,7 +156,6 @@ hr.faint-line {
 /* Footer */
 footer {
   text-align: center;
-  margin-top: 50px;
   padding: 50px;
   background-color: #495A58;
   color: #E5E3DC;
